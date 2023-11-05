@@ -1,4 +1,4 @@
-import "./slide.css";
+import "./Slide.css";
 
 interface SlideProps {
   src: string;
