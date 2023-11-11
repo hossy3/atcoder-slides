@@ -14,6 +14,7 @@ const preview: Preview = {
         method: "alphabetical",
         order: [
           "はじめに",
+          "ABC327",
           "ABC312",
           "ABC310",
           "ABC309",
