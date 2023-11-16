@@ -10,20 +10,30 @@ const preview: Preview = {
       },
     },
     options: {
-      storySort: {
-        method: "alphabetical",
-        order: [
-          "はじめに",
-          "ABC327",
-          "ABC312",
-          "ABC310",
-          "ABC309",
-          "ABC308",
-          "ABC306",
-          "ABC305",
-        ],
+      storySort: (a, b) => {
+        if (a.id === b.id) {
+          return 0;
+        }
+        if (!a.id.startsWith("abc") && !b.id.startsWith("abc")) {
+          return a.id.localeCompare(b.id);
+        }
+        if (!a.id.startsWith("abc") && b.id.startsWith("abc")) {
+          return -1;
+        }
+        if (a.id.startsWith("abc") && !b.id.startsWith("abc")) {
+          return 1;
+        }
+        if (a.id.substring(0, 6) === b.id.substring(0, 6)) {
+          if (!a.id.includes("-ex-") && b.id.includes("-ex-")) {
+            return -1;
+          }
+          if (a.id.includes("-ex-") && !b.id.includes("-ex-")) {
+            return 1;
+          }
+          return a.id.localeCompare(b.id);
+        }
+        return -a.id.localeCompare(b.id);
       },
-      // (a, b) => (a.id === b.id ? 0 : b.id.localeCompare(b.Id)),
     },
   },
 };
