@@ -1,0 +1,7 @@
+import{j as e,S as o}from"./Slide-7ec55d9e.js";import{M as i}from"./index-69d3c8aa.js";import{u as s}from"./index-2ef8b458.js";import"./index-1b03fe98.js";import"./iframe-c292d747.js";import"../sb-preview/runtime.js";import"./index-6fd5a17b.js";import"./index-85e26d89.js";const a=""+new URL("abc330-b-9580c5ff.png",import.meta.url).href;function r(t){const n=Object.assign({ul:"ul",li:"li",a:"a"},s(),t.components);return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"ABC330/ABC330-B"}),`
+`,e.jsx(o,{src:a,label:"ABC330 B - Minimize Abs 1"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"https://atcoder.jp/contests/abc330/tasks/abc330_b",target:"_blank",rel:"nofollow noopener noreferrer",children:"B - Minimize Abs 1"})}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.a,{href:"https://atcoder.jp/contests/abc330/submissions/47925336",target:"_blank",rel:"nofollow noopener noreferrer",children:"提出 #47925336 - トヨタシステムズプログラミングコンテスト2023(AtCoder Beginner Contest 330)"})," (Rust)"]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.a,{href:"https://atcoder.jp/contests/abc330/submissions/48177621",target:"_blank",rel:"nofollow noopener noreferrer",children:"提出 #48177621 - トヨタシステムズプログラミングコンテスト2023(AtCoder Beginner Contest 330)"})," (Rust, clamp)"]}),`
+`]})]})}function u(t={}){const{wrapper:n}=Object.assign({},s(),t.components);return n?e.jsx(n,Object.assign({},t,{children:e.jsx(r,t)})):r(t)}export{u as default};
