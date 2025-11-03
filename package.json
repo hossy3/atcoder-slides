@@ -14,28 +14,28 @@
     "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@storybook/addon-docs": "^10.0.3",
-    "@storybook/addon-links": "10.0.2",
-    "@storybook/addon-onboarding": "10.0.2",
-    "@storybook/react-vite": "10.0.2",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
+    "@storybook/addon-links": "10.0.3",
+    "@storybook/addon-onboarding": "10.0.3",
+    "@storybook/react-vite": "10.0.3",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
     "@vitejs/plugin-react": "^5.1.0",
-    "eslint": "^8.45.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "eslint-plugin-storybook": "10.0.2",
-    "gh-pages": "^6.0.0",
-    "prettier": "^3.0.3",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-storybook": "10.0.3",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.6.2",
     "storybook": "^10.0.3",
-    "typescript": "^5.0.2",
+    "typescript": "^5.9.3",
     "vite": "^7.1.12"
   }
 }
